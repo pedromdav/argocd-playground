@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:pedromdav/argocd-playground.git
+    repoURL: https://github.com/pedromdav/argocd-playground.git
     targetRevision: main
     path: infrastructure
     directory:
