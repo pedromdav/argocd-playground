@@ -7,7 +7,7 @@ spec:
   project: default
   sources:
     - repoURL: https://kubernetes-sigs.github.io/metrics-server/
-      chart: metrics-server/metrics-server
+      chart: metrics-server
       targetRevision: 0.8.0
   destination:
     server: https://kubernetes.default.svc
