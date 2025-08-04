@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/kubernetes-sigs/metrics-server
     path: deploy/kubernetes
-    targetRevision: latest
+    targetRevision: v0.8.0
   destination:
     server: https://kubernetes.default.svc
     namespace: kube-system
