@@ -12,7 +12,7 @@ spec:
       helm:
         valueFiles:
           - $values/infrastructure/cilium/values.yaml
-    - repoURL: 'https://github.com/pedromdav/argocd-playground.git'
+    - repoURL: https://github.com/pedromdav/argocd-playground.git
       targetRevision: HEAD
       ref: values
   destination:
