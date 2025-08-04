@@ -6,11 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://raw.githubusercontent.com/alex1989hu/kubelet-serving-cert-approver/main/deploy
-    path: .
+    repoURL: https://github.com/pedromdav/argocd-playground.git
+    path: infrastructure/metrics-server/kubelet-serving-cert-approver/install.yaml
     targetRevision: HEAD
-    directory:
-      include: "standalone-install.yaml"
   destination:
     server: https://kubernetes.default.svc
     namespace: kubelet-serving-cert-approver
