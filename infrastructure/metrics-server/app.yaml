@@ -5,10 +5,10 @@ metadata:
   namespace: argocd
 spec:
   project: default
-  source:
-    repoURL: https://github.com/kubernetes-sigs/metrics-server
-    path: deploy/kubernetes
-    targetRevision: v0.8.0
+  sources:
+    - repoURL: https://kubernetes-sigs.github.io/metrics-server/
+      chart: metrics-server/metrics-server
+      targetRevision: 0.8.0
   destination:
     server: https://kubernetes.default.svc
     namespace: kube-system
@@ -18,3 +18,4 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+Ø
