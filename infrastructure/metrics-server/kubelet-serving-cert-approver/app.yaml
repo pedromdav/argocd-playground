@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com:alex1989hu/kubelet-serving-cert-approver.git
+    repoURL: https://github.com/alex1989hu/kubelet-serving-cert-approver.git
     path: deploy/standalone
     targetRevision: HEAD
   destination:
